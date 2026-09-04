@@ -51,7 +51,7 @@ function App() {
       <AuthProvider>
         <WishlistProvider>
           <LibraryProvider>
-            <BrowserRouter>
+            <BrowserRouter basename="/softmarket-demo">
               <div className="flex min-h-screen flex-col">
                 <AppRoutes />
               </div>
